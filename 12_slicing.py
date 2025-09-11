@@ -29,4 +29,3 @@ print(a+b) # 리스트 합치기 가능
 print(a*3) # list 반복도 가능
 
 
-
