@@ -53,6 +53,9 @@ print(저금통(100))
 
 # 반환타입:X 매개변수:X (온도계)(스트레스볼?)
 def thermometer():
-    print(f'온도가 측정된다.')
+    print('온도가 측정된다.')
 thermometer()
 
+def 호출벨():
+    print('호출벨이 울린다.')
+호출벨()
