@@ -19,7 +19,14 @@ print(f'교집합2 : {s1.intersection(s2)}')
 print(f'합집합1 : {s1 | s2}')
 print(f'합집합2 : {s1.union(s2)}')
 
-#
+# 차집합(minus|difference)
+# 앞쪽이 기준이 된다.
+print(f'차집합 : {s1-s2}')
+print(f'차집합 : {s2-s1}')
+
+# 값 1개 추가하기
+# 여러개 추가하기
+# 특정 값 제거하기
 
 
 
