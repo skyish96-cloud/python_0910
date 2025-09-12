@@ -48,3 +48,29 @@ for item in dic.items():
 # 첫번째 반복에 item = ("name", "hong,gil-dong")
 # 첫번째 반복에 item = ("phone", "010-1234-1234")
 # 첫번째 반복에 item = ("friends", "['Alice', 'Smith', 'Jhone']")
+
+# 90이상인 사람의 이름만 출력
+members = {
+    'kim':63, 'lee':88, 'park':97, "gang":77, "hwang":100, "ga":65,
+    "na":92, "la":90, "wang":100, "gu":79
+}
+
+for item in members.items():
+    if item[1] >= 90:
+        print(f'이름 : {item[0]}')
+
+# key in dic : 해당 키가 사전에 존재하는지 확인
+
+yn = 'kim' in members
+print(f'kim이 있는가? = {yn}')
+
+yn = 'jung' in members
+print(f'jung이 있는가? = {yn}')
+
+#update : 이미 있는 키면 수정을, 없는 키면 추가를 하는 함수
+dic.update({'name':'홍길동','age':30,'married':False})
+print(dic)
+
+# dic.clear() : 사전 안의 내용을 모두 지운다.
+dic.clear()
+print(dic)
