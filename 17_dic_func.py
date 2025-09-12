@@ -43,4 +43,8 @@ for key in dic.keys(): # 딕셔너리의  key 값들을 하나씩 꺼내면서 k
 for item in dic.items():
     print(f'{item[0]}={item[1]}')
 
-
+# dic은 딕셔너리,dic.items()는 (키, 값) 쌍을 튜플 형태로 꺼내준다
+# item은 한번에 하나씩(키, 값) 튜플을 받는다.
+# 첫번째 반복에 item = ("name", "hong,gil-dong")
+# 첫번째 반복에 item = ("phone", "010-1234-1234")
+# 첫번째 반복에 item = ("friends", "['Alice', 'Smith', 'Jhone']")
