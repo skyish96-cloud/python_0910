@@ -3,8 +3,6 @@
 from oper import sum
 print(f'sum() 함수실행 : {sum(5,10)}')
 
-
-
 # import 모듈
 # 일단 모듈로 불러놓고 모듈로부터 원하는 함수를 사용하는 방법
 
