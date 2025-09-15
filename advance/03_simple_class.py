@@ -15,6 +15,13 @@ print(std1)
 print(std2)
 print(std3)
 
+# 메모리의 영역은 3가지로 나누어진다.
+
+# STATIC영역(원본)
+# HEAP영역(복사본)
+# ATACK영역
+
+# 우리는 STATIC영역(원본)을 HEAP영역(복사본)로 해서 사용하는 방식이다.
 
 
 
