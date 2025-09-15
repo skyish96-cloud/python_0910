@@ -11,4 +11,5 @@ class Puppy:
         self.name = name # name = name 앞에 name은 위에서 내려오고 뒤에 name은 init에서 온 name이다.
         self.goal = goal # goal = goal 앞에 goal은 위에서 내려오고 뒤에 goal은 init에서 온 goal이다.
 
-Puppy = Puppy("멍멍이","집지키기") # __init__을 벗어날 수 없다.
+puppy = Puppy("두부","집지키기") # __init__을 벗어날 수 없다.
+print(f'이름 : {puppy.name} / 목적 : {puppy.goal}')
