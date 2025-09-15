@@ -23,6 +23,16 @@ print(tuple_args(1,2,3,4,5))
 
 # **는 매개변수를 사전형태로 받겠다.
 def dic_args(**dic):
+    # 1 .dic에서 값만 빼온다.
+    values = dic.values() # values 값만 리스트처럼 빼온다.
+    print(values)
+    # 2.이 값들을 하나씩 더해 누적시킨다.
+    total = 0 # 토탈 값 = 0
+    for v in values: # values에서 나온 각각의 v의 값을 구한다.
+        print(v)
+        total += (v) # total = 0에서 v의 값을 더한다.
+    #3. 누적시킨 값을 밖으로 return 한다.
+    return total # total += (v)이 값으 프린트한다.(50+100+70+90 = 310)
     print(dic)
 
 # 위 함수를 실행하면 입력된 값들의 합산이 반환되도록 하세요

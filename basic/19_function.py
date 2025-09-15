@@ -13,3 +13,6 @@ dish = toaster('식빵')
 print(dish)
 #dish의 역활은 상태를 확인하기 위해서이다.
 
+
+
+

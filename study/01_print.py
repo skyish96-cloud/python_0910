@@ -45,9 +45,9 @@ print("abcd\refgh")
 
 print("\\")
 
-+ / & // *
-a += a
-
-a = a + a
-a -= a
-a = a - a
+# + / & // *
+# a += a
+#
+# a = a + a
+# a -= a
+# a = a - a

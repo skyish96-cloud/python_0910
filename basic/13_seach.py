@@ -69,6 +69,7 @@ print(a)
 a.extend(b)
 print(a)
 
+
 # count(val) 특정한 값이 해당 리스트에 몇개 있는지 확인
 print(a)
 print(f'a 안에 3은 {a.count(4)}개 가 있다.')
