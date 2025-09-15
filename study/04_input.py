@@ -46,3 +46,7 @@ print(f"flt1 : {flt1}, type : {type(flt1)}")
 num = "123"
 num_int = int(num)
 print(type(num))
+
+
+
+

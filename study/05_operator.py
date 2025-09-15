@@ -59,3 +59,7 @@ print(num >= 0 and num <= 100)
 print(0 >= num <= 100)
 # or 는 제외 범위에 사용된다.
 print(num < 0 or num > 100)
+
+
+
+
