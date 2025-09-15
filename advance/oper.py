@@ -1,6 +1,6 @@
 # 변수
-field = 10
-field = 'String'
+field1 =  10
+field2 = 'String'
 
 # 함수
 def sum(a,b):
@@ -13,3 +13,4 @@ def multiply(a,b):
 
 def divide(a,b):
     return a/b
+
