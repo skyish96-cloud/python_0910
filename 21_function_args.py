@@ -6,5 +6,13 @@ def plus(num=0): # 2개의 사용 위치
 print(plus(5)) #10
 print(plus()) # plus() missing 1 required positional argument: 'num'
 
+# 인자값의 종류를 tuple(수정이 불가능한 List형태)로만 받겠다.
+# return은 함수 한 곳에 무조건 하나
 def tuple_args(*numbers):
-    pass
+    print(numbers)
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+print(tuple_args(1,2,3,4,5))
