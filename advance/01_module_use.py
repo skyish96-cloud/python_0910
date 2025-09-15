@@ -5,3 +5,5 @@ print(f'sum() 함수실행 : {sum(5,10)}')
 
 
 # import 모듈
+import oper
+print(f'minus() 함수실행 : {oper.minus(10,5)}')
