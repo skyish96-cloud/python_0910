@@ -1,4 +1,7 @@
 # 인자값으로 아무것도 들어오지 않았을 경우 에러를 방지하기 위해 기본값 설정이 가능
+from ctypes import HRESULT
+
+
 def plus(num=0): # 2개의 사용 위치
     result = num + 5
     return result
@@ -18,6 +21,10 @@ def tuple_args(*numbers):
 # 이 방식은 사용자가 인자값의 갯수를 자유롭게 정해서 넣을 수 있다.
 print(tuple_args(1,2,3,4,5))
 
-# **
+# **는 매개변수르 ㄹ사전형태로 받겠다.
 def dic_args(**dic):
-    pass
+    print(dic)
+
+# 위 함수를 실행하면 입력된 값들의 합산이 반환되도록 하세요
+result = dic_args(kim=50, lee=100, park=70, na=90)
+print(result)
