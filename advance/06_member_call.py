@@ -1,8 +1,5 @@
-from typing import get_args
-
-
 class Car:
-    # 멤버 변수
+    # 멤버 변수(필드)
     gear = 0
     on = False
 
@@ -13,7 +10,7 @@ class Car:
         self.gear = 0
         self.on = False
 
-    # 멤버 함수 - 클래스 안의 생성자 함수들은 해당 객체를 표시하기 위한 self를 기본으로 가지고 있는다.
+    # 멤버 함수 - 클래스 안의 생성자 함수들은 해당 객체를 표시하기 위한 self 를 기본으로 가지고 있는다.
     def start(self):
         if self.on == False:
             print('시동이 걸렸습니다.')
@@ -21,6 +18,15 @@ class Car:
         else:
             print('시동이 이미 걸려있습니다.')
 
-    def change(gear):
-        print(f'{self.gear} 단으로 변속 했습니다.')
+    def change(self, gear):
+        print(f'{gear} 단으로 변속 했습니다.')
         self.gear += gear
+
+# Car 클래스를 객체화(복사)
+# 객체를 통해 사용하고 싶은 멤버 호출
+car = Car()
+# 시동 걸기
+car.start()
+# 변속하기
+car.change(3)
+print(f'현재 car 의 gear 단수 : {car.gear}')
