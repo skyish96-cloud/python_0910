@@ -30,3 +30,5 @@ car.start()
 # 변속하기
 car.change(3)
 print(f'현재 car 의 gear 단수 : {car.gear}')
+
+
