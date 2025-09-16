@@ -16,3 +16,5 @@ print(f'r2.count : {r2.count}')
 r2.count = 100
 print(f'r1.count : {r1.count}')
 print(f'r2.count : {r2.count}')
+
+# 원본의 내용을 고치고 싶다면? 원본으로 직접가서 고쳐야한다.
