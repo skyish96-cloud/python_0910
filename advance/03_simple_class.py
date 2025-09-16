@@ -22,6 +22,8 @@ print(std3)
 # ATACK영역
 
 # 우리는 STATIC영역(원본)을 HEAP영역(복사본)로 해서 사용하는 방식이다.
+# STATIC영역은 클래스 원본이 자리잡은 곳이다.
+# Class method와 class variable은 class와 같이 원본 영역에 존재한다.
 
 
 
