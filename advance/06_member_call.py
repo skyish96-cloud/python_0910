@@ -20,6 +20,3 @@ class Car:
 
     def change(self):
         pass
-
-
-
