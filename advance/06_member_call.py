@@ -1,3 +1,6 @@
+from typing import get_args
+
+
 class Car:
     # 멤버 변수
     gear = 0
@@ -18,5 +21,6 @@ class Car:
         else:
             print('시동이 이미 걸려있습니다.')
 
-    def change(self):
-        pass
+    def change(gear):
+        print(f'{self.gear} 단으로 변속 했습니다.')
+        self.gear += gear
